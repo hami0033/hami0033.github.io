@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<title>Hannah Hamilton</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Constantia">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body, h1, h2, h3, h4, h5, h6 {
+        font-family: Constantia, sans-serif
+    }
+
+    .w3-row-padding img {
+        margin-bottom: 12px
+    }
+    /* Set the width of the sidebar to 120px */
+    .w3-sidebar {
+        width: 120px;
+        background: green;
+    }
+    /* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+    #main {
+        margin-left: 120px
+    }
+    /* Remove margins from "page content" on small screens */
+    @media only screen and (max-width: 600px) {
+        #main {
+            margin-left: 0
+        }
+    }
+</style>
+<body class="w3-white">
+
+    <!-- Icon Bar (Sidebar - hidden on small screens) -->
+    <nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large w3-white">
+            <i class="fa fa-home w3-xxlarge"></i>
+            <p>HOME</p>
+        </a>
+        <a href="AboutPage.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">
+            <i class="fa fa-user w3-xxlarge"></i>
+            <p>ABOUT</p>
+        </a>
+        <a href="ProjectPage.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">
+            <i class="fa fa-area-chart w3-xxlarge"></i>
+            <p>PROJECTS</p>
+        </a>
+        <a href="SkillPage.html" class="w3-bar-item w3-button w3-padding-large w3-hover-white">
+            <i class="fa fa-wrench w3-xxlarge"></i>
+            <p>SKILL SETS</p>
+        </a>
+    </nav>
+
+    <!-- Navbar on small screens (Hide on medium and large screens) -->
+    <div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+        <div class="w3-bar w3-blue w3-opacity w3-hover-opacity-off w3-center w3-small">
+            <a href="index.html" class="w3-bar-item w3-button" style="width:20% !important">HOME</a>
+            <a href="AboutPage.html" class="w3-bar-item w3-button" style="width:20% !important">ABOUT</a>
+            <a href="ProjectPage.html" class="w3-bar-item w3-button" style="width:20% !important">PROJECTS</a>
+            <a href="SkillPage.html" class="w3-bar-item w3-button" style="width:20% !important">SKILLS</a>
+        </div>
+    </div>
+
+    <!-- Page Content -->
+    <div class="w3-padding-large" id="main">
+        <!-- Header/Home -->
+        <header class="w3-container w3-padding-32 w3-center w3-blue" id="home">
+            <h1 class="w3-jumbo"><span class="w3-hide-small w3-text-bold"></span>Hannah Hamilton</h1>
+            <p>Senior MIS student at the University of Oklahoma</p>
+            <img src="https://media-exp1.licdn.com/dms/image/C4E03AQHfocSjl2B05Q/profile-displayphoto-shrink_800_800/0/1632880003902?e=1643846400&v=beta&t=l3LLkDZUgW4um_8wfV4FwvhINNfNtjei6zAM0XLG1W4" class="w3-image" width="500" height="500">
+        </header>
+    </div>
+
+</body>
+</html>
